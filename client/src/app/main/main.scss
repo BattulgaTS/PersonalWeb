@@ -1,0 +1,23 @@
+.UnderTheStars {
+  background: url('/assets/images/background.jpg') no-repeat center center;
+
+  // -webkit-background-size: cover;
+  // -moz-background-size: cover;
+  // -o-background-size: cover;
+  background-size: cover;
+}
+
+img.center {
+    display: block;
+    margin: 0 auto;
+}
+
+.icons {
+  margin-left: 25px;
+  margin-right: 25px;
+  background: transparent;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
