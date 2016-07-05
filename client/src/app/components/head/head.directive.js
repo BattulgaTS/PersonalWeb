@@ -3,13 +3,13 @@
 
   angular
     .module('client')
-    .directive('header', header);
+    .directive('headerino', headerino);
 
   /** @ngInject */
-  function header() {
+  function headerino() {
     var directive = {
       restrict: 'E',
-      templateUrl: 'app/components/header/header.html'
+      templateUrl: 'app/components/head/head.html'
     };
 
     return directive;
